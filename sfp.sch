@@ -240,6 +240,7 @@ DIN A4, landscape with location and doc. field</description>
 <library name="misc">
 <packages>
 <package name="QFN40">
+<description>&lt;a href="https://grabcad.com/library/qfn-packages-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
 <circle x="-3.8" y="3.00000625" radius="0.125" width="0.25" layer="21"/>
 <circle x="-2.1" y="2.1" radius="0.5" width="0.1" layer="112"/>
 <wire x1="-3.149996875" y1="-3.149996875" x2="-3.15000625" y2="-2.675" width="0.15" layer="21"/>
@@ -1429,11 +1430,12 @@ DIN A4, landscape with location and doc. field</description>
 <circle x="-1.3" y="-0.5" radius="0.2" width="0.1" layer="25"/>
 </package>
 <package name="KXO-V97">
-<circle x="-3.999990625" y="-2.800003125" radius="0.15" width="0.3" layer="51"/>
-<wire x1="3.550003125" y1="3.199996875" x2="3.550003125" y2="-3.199996875" width="0.1" layer="51"/>
-<wire x1="3.550003125" y1="3.199996875" x2="-3.550003125" y2="3.199996875" width="0.1" layer="51"/>
-<wire x1="3.550003125" y1="-3.199996875" x2="-3.550003125" y2="-3.199996875" width="0.1" layer="51"/>
-<wire x1="-3.550003125" y1="3.199996875" x2="-3.550003125" y2="-3.199996875" width="0.1" layer="51"/>
+<description>&lt;a href="https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&amp;id=540039&amp;partnumber=KXO-V97"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+<circle x="-3.999990625" y="-2.800003125" radius="0.15" width="0.3" layer="21"/>
+<wire x1="3.550003125" y1="3.199996875" x2="3.550003125" y2="-3.199996875" width="0.1" layer="21"/>
+<wire x1="3.550003125" y1="3.199996875" x2="-3.550003125" y2="3.199996875" width="0.1" layer="21"/>
+<wire x1="3.550003125" y1="-3.199996875" x2="-3.550003125" y2="-3.199996875" width="0.1" layer="21"/>
+<wire x1="-3.550003125" y1="3.199996875" x2="-3.550003125" y2="-3.199996875" width="0.1" layer="21"/>
 <smd name="1" x="-2.54000625" y="-2.1" dx="1.8" dy="2" layer="1" roundness="3"/>
 <smd name="2" x="2.54000625" y="-2.1" dx="1.8" dy="2" layer="1" roundness="3"/>
 <smd name="3" x="2.54000625" y="2.1" dx="1.8" dy="2" layer="1" roundness="3"/>
@@ -1497,13 +1499,14 @@ DIN A4, landscape with location and doc. field</description>
 <library name="Connectors">
 <packages>
 <package name="HR911130C">
-<description>&lt;a href = https://static.chipdip.ru/lib/572/DOC042572453.pdf&gt;Datasheet&lt;/a&gt;</description>
+<description>&lt;a href = https://static.chipdip.ru/lib/572/DOC042572453.pdf&gt;Datasheet&lt;/a&gt;
+&lt;!--3d:{"tx":7.94,"ty":10.9,"tz":13.5,"rx":0.0,"ry":180.0,"rz":0.0}--&gt;</description>
 <wire x1="-8" y1="10.795" x2="8" y2="10.795" width="0.127" layer="21"/>
 <wire x1="8" y1="10.795" x2="8" y2="-10.795" width="0.127" layer="21"/>
 <wire x1="8" y1="-10.795" x2="-8" y2="-10.795" width="0.127" layer="21"/>
 <wire x1="-8" y1="-10.795" x2="-8" y2="10.795" width="0.127" layer="21"/>
-<pad name="11" x="6.625" y="4.5" drill="0.8128" diameter="1.524" rot="R180"/>
-<pad name="12" x="4.085" y="4.5" drill="0.8128" diameter="1.524" rot="R180"/>
+<pad name="11" x="6.625" y="4.9" drill="0.8128" diameter="1.524" rot="R180"/>
+<pad name="12" x="4.085" y="4.9" drill="0.8128" diameter="1.524" rot="R180"/>
 <pad name="8" x="-3.175" y="-6.35" drill="0.9" rot="R180"/>
 <pad name="7" x="-1.905" y="-8.89" drill="0.9" rot="R180"/>
 <pad name="4" x="1.905" y="-6.35" drill="0.9" rot="R180"/>
@@ -1514,13 +1517,14 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="SH1" x="7.745" y="-3.05" drill="1.7" rot="R180"/>
 <pad name="1" x="5.715" y="-8.89" drill="0.9" shape="square" rot="R180"/>
 <pad name="2" x="4.445" y="-6.35" drill="0.9" rot="R180"/>
-<pad name="14" x="-6.625" y="4.5" drill="0.8128" diameter="1.524" rot="R180"/>
-<pad name="13" x="-4.085" y="4.5" drill="0.8128" diameter="1.524" rot="R180"/>
+<pad name="14" x="-6.625" y="4.9" drill="0.8128" diameter="1.524" rot="R180"/>
+<pad name="13" x="-4.085" y="4.9" drill="0.8128" diameter="1.524" rot="R180"/>
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <hole x="5.715" y="0" drill="3.556"/>
 <hole x="-5.715" y="0" drill="3.556"/>
 <pad name="9" x="-4.445" y="-8.89" drill="0.9" rot="R180"/>
 <pad name="10" x="-5.715" y="-6.35" drill="0.9" rot="R180"/>
+<wire x1="-6.35" y1="-8.89" x2="-10.16" y2="-8.89" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
